@@ -1,0 +1,9 @@
+p{
+    display: inline-block;
+}
+form{
+    border: 1px solid black;
+}
+label{
+    font-weight: 700;
+}
