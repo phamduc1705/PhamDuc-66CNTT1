@@ -4,7 +4,6 @@
 - 👨‍🎓 Họ tên: **Phạm Đức**
 - 🏫 Trường: **Trường Đại học Thủy Lợi (TLU)**
 - 💻 Ngành/định hướng: **Công nghệ thông tin**
-- 🌱 Tính cách: Hướng nội nhưng hòa đồng
 - 🎮 Sở thích: Chơi game, học lập trình, tìm hiểu công nghệ
 
 ---
