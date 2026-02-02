@@ -96,6 +96,7 @@
                 </table>
             </div>
         </div>
+        <div class="overlay"></div>
         <div class="form">
             <form action="">
                 <div class="header-form">
@@ -120,33 +121,38 @@
                     <div class="row">
                         <div class="input">
                             <label for="phone">Phone</label>
-                            <input type="text" name="phone" id="phone">
+                            <input type="text" id="phone">
                         </div>
+
                         <div class="input">
-                            <label for="positon">Position</label>
-                            <select id="position" name="position">
-                                <option value="staff">Staff</option>
-                                <option value="manager">manager</option>
-                                <option value="CEO">CEO</option>
+                            <label for="position">Position</label>
+                            <select id="position">
+                                <option>Staff</option>
+                                <option>Manager</option>
+                                <option>CEO</option>
+                            </select>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="input">
-                            <label>Sex</label>
+
+                    <div class="row-1">
+                        <div class="input-1">
+                            <label for="male">Sex</label>
                             <div class="radio-group">
-                                <label><input type="radio" name="sex"> Male</label>
-                                <label><input type="radio" name="sex"> Female</label>
+                                <label><input type="radio" name="sex" value="male"> Male</label>
+                                <label><input type="radio" name="sex" value="female"> Female</label>
                             </div>
                         </div>
                     </div>
 
-                </div>
+
                 <div class="footer-form">
                     <button class="save-button">Save</button>
                     <button class="can-button">Cancel</button>
                 </div>
+            </div>
             </form>
         </div>
     </div>
 </body>
+<script src="./script.js"></script>
 </html>
