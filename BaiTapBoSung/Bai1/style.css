@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.title{
+    width: 100%;
+    height: 20%;
+}
+.info{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    width: calc(50% - 15px);
+    height: 40px;
+}
+.email{
+    width: calc(50% - 15px);;
+    height: 40px;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.subject{
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+}
+.message{
+    width: 90%;
+    height: 200px;
+    margin-top: 15px;
+}
+.footer{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(108, 157, 247);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}

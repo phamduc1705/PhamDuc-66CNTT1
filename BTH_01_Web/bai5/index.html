@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-left">
+                <div class="title">HR Management</div>
+                <div class="option">
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body-title">
+                <h2>Employee</h2>
+                <button class="add-button">+Add</button>
+            </div>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Position</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Fatima Beatriz</td>
+                        <td>Fatima Beatriz@gmail.com</td>
+                        <td>0123456789</td>
+                        <td>Manager</td>
+                        <td>
+                            <button class="edit-button">Edit</button>
+                            <button class="del-button">Delete</button>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Gabriel Hanna</td>
+                        <td>Gabriel Hanna@gmail.com</td>
+                        <td>0987654321</td>
+                        <td>Staff</td>
+                        <td>
+                            <button class="edit-button">Edit</button>
+                            <button class="del-button">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Chaler</td>
+                        <td>Chaler@gmail.com</td>
+                        <td>0987654321</td>
+                        <td>Staff</td>
+                        <td>
+                            <button class="edit-button">Edit</button>
+                            <button class="del-button">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Hanna</td>
+                        <td>Hanna@gmail.com</td>
+                        <td>0987654321</td>
+                        <td>Staff</td>
+                        <td>
+                            <button class="edit-button">Edit</button>
+                            <button class="del-button">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Gabriel</td>
+                        <td>Gabriel@gmail.com</td>
+                        <td>0987654321</td>
+                        <td>Staff</td>
+                        <td>
+                            <button class="edit-button">Edit</button>
+                            <button class="del-button">Delete</button>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="form">
+            <form action="">
+                <div class="header-form">
+                    <div class="title-form">
+                        <h2>New Employee</h2> 
+                    </div>
+                    <div class="x">
+                        <button class="huy">X</button>
+                    </div>
+                </div>
+                <div class="content-form">
+                    <div class="row">
+                        <div class="input">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input">
+                            <label for="phone">Phone</label>
+                            <input type="text" id="phone">
+                        </div>
+
+                        <div class="input">
+                            <label for="position">Position</label>
+                            <select id="position">
+                                <option>Staff</option>
+                                <option>Manager</option>
+                                <option>CEO</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row-1">
+                        <div class="input-1">
+                            <label for="male">Sex</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="sex" value="male"> Male</label>
+                                <label><input type="radio" name="sex" value="female"> Female</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class="footer-form">
+                    <button class="can-button">Cancel</button>
+                    <button class="save-button">Save</button>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

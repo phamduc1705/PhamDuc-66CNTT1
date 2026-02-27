@@ -1,0 +1,49 @@
+.form-row {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 10px;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.form-textarea{
+    width: 50%;
+    height: 80px;
+    padding: 6px;
+}
+.form-input,
+.form-select {
+    width: 100%;
+    padding: 6px;
+}
+
+.form-title {
+    margin: 20px 0 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+.form-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sub_button, .can_button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 30px;
+}
+.checkbox-row {
+    justify-items: start;
+}
+
