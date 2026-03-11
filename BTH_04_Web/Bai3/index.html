@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <div class="box">
+                <input name="name" type="text" placeholder="Nhập họ tên" class="inputname">
+                <span class="inputname-error"></span>
+            </div>
+            <div class="box">
+                <input name="email" type="email" placeholder="example@gmail.com" class="inputemail">
+                <span class="inputemail-error"></span>
+            </div>
+            <div class="box">
+                <input name="sdt" type="text" placeholder="Nhập số điện thoại" class="inputsdt">
+                <span class="inputsdt-error"></span>
+            </div>
+            <div class="box">
+                <input name="mk" type="password" placeholder="Nhập mật khẩu" class="inputmk">
+                <span class="inputmk-error"></span>
+            </div>
+            <div class="box">
+                <input name="mk" type="password" placeholder="Nhập mật khẩu" class="inputmkagain">
+                <span class="inputmkagain-error"></span>
+            </div>
+            <div class="sex">
+
+                <input name="sex" type="radio" id="sex">
+                <label for="sex" value="nam">Nam</label>
+                <input name="sex" type="radio" id="sex1">
+                <label for="sex1" value="nữ">Nữ</label>
+
+            </div>
+            <div class="tick">
+                <input name="tick" type="checkbox" id="tick">
+                <label for="tick">Bạn có đồng ý với điều khoản</label>
+            </div>
+            <button type="submit" class="btn">Gửi</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

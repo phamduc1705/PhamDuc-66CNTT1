@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <div class="logo">
+                    <img src="./images/logo.png!w700wp" alt="logo">
+                    <p>Đức's Shop</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="slidebar">
+                    <ul>
+                        <li>Home</li>
+                        <li>Product</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="product">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="contact">
+                Hãy hợp tác với tôi
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="titlepopup">
+            <h2>Xác nhận mua hàng</h2>
+        </div>
+        
+        <form class="form">
+            <div class="container2">
+                <div class="boxinput">
+                    <input type="text" class="product1">
+                </div>
+                <div class="boxinput">
+                    <input type="number" class="quantity" placeholder="Nhập số lượng sản phẩm">
+                    <span class="quantity-error"></span>
+                </div>
+                <div class="boxinput">
+                    <input type="date" class="day" placeholder="Ngày giao hàng">
+                    <span class="day-error"></span>
+                </div>
+                <div class="boxinput">
+                    <input type="text" class="address" placeholder="Địa chỉ">
+                    <span class="address-error"></span>
+                </div>
+            </div>
+            <div class="note">
+                <textarea maxlength="201" class="note1" placeholder="Ghi chú(Không quá 200 kí tự)"></textarea>
+                <span class="count">0/200</span>
+            </div>
+            <div class="pptt">
+
+                <input type="radio" id="tt" name="tt">
+                <label for="tt">COD</label>
+
+                <input type="radio" id="tt1" name="tt">
+                <label for="tt1">Chuyển Khoản</label>
+
+                <input type="radio" id="tt2" name="tt">
+                <label for="tt2">Ví điện tử</label>
+
+                <span class="tt-error"></span>
+
+            </div>
+            <button type="button" class="buynow">Xác nhận mua</button>
+            <button type="button" class="cancel">Hủy</button>
+            
+        </form>
+    </div>
+    <div class="overlay"></div>
+    <div class="success">
+        <i class="fa-solid fa-check"></i>
+        <p>Đã mua thành công! Cảm ơn bạn đã ủng hộ</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

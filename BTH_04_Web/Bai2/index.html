@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-left">
+                <div class="title">Quản lý học sinh</div>
+                <div class="option">
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="inputsearch">
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body-title">
+                <h2>Danh sách học sinh</h2>
+                <div class="section">
+                    <select>
+                        <option value="ALL">Tất cả</option>
+                        <option value="Giỏi">Giỏi</option>
+                        <option value="Khá">Khá</option>
+                        <option value="Trung Bình">Trung Bình</option>
+                        <option value="Yếu">Yếu</option>
+
+                    </select>
+                    <button class="add-button">+Add</button>
+                </div>
+            </div>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>STT</th>
+                        <th>Họ tên</th>
+                        <th class="sort" data-index="0">Điểm ▲</th>
+                        <th>Xếp loại</th>
+                        <th>Thao tác</th>
+                    </tr>
+                    <tbody class="infotable">
+                        <!-- <tr>
+                        <td>1</td>
+                        <td>Phạm Phú Đức</td>
+                        <td class="mark1">7</td>
+                        <td>Yếu</td>
+                        <td>
+                            <button class="edit-button">Edit</button>
+                            <button class="del-button" data-index="1">Delete</button>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Nguyễn Tùng Lâm </td>
+                        <td class="mark1">10</td>
+                        <td>Giỏi</td>
+                        <td>
+                            <button class="edit-button">Edit</button>
+                            <button class="del-button" data-index="2">Delete</button>
+                        </td>
+                    </tr> -->
+                    <tr id="avgrow">
+                        <td colspan="2">Điểm trung bình</td>
+                        <td class="dtb">8.5</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="form">
+            <form action="">
+                <div class="header-form">
+                    <div class="title-form">
+                        <h2>Thêm học sinh</h2> 
+                    </div>
+                    <div class="x">
+                        <button class="huy" type="button">X</button>
+                    </div>
+                </div>
+                <div class="content-form">
+                    <div class="box">
+                        <input name="name" type="text" placeholder="Nhập họ tên" class="name">
+
+                    </div>
+                    <div class="box">
+                        <input name="mark" type="text" placeholder="Nhập điểm" class="mark">
+                    </div>
+                    <div class="box">
+                        <input name="rank" type="text" class="rank">
+                    </div>
+                </div>
+
+                <div class="footer-form">
+                    <button class="save-button" type="button">Save</button>
+                    <button class="can-button" type="button">Cancel</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
